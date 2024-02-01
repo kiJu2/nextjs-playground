@@ -7,7 +7,7 @@ export default function Header() {
         Next.js
       </Link>
       <nav className="flex">
-        <Link href="/Posts" className="mr-4">
+        <Link href="/posts" className="mr-4">
           Posts
         </Link>
         <Link href="/about">About</Link>
