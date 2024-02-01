@@ -3,10 +3,12 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="flex justify-between items-center p-4">
-      <h1 className="font-bold text-2xl">Next.js</h1>
+      <Link href="/" className="font-bold text-2xl">
+        Next.js
+      </Link>
       <nav className="flex">
-        <Link href="/" className="mr-4">
-          Home
+        <Link href="/Posts" className="mr-4">
+          Posts
         </Link>
         <Link href="/about">About</Link>
       </nav>
