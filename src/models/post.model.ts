@@ -1,12 +1,10 @@
-type PostSchema = {
+import { generateImageUrl } from "@/app/utills";
+
+export type PostSchema = {
   id: number;
   title: string;
   body: string;
   image: string;
-};
-
-const generateImageUrl = () => {
-  return `https://picsum.photos/seed/${Math.random()}/200/300`;
 };
 
 export const Posts: PostSchema[] = [
