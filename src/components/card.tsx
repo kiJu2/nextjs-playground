@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Card({ title, image, id }: PostSchema) {
   return (
-    <Link href={`/posts/${id}`}>
+    <Link href={`/posts/${id}`} scroll={false}>
       <div className="flex flex-col justify-center items-center p-4 border border-gray-300 rounded-lg cursor-pointer hover:shadow-lg transition-shadow">
         <Image
           src={image}
