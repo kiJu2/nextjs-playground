@@ -8,7 +8,7 @@ export default function Header() {
         <Link href="/" className="mr-4">
           Home
         </Link>
-        <Link href="/about">About</Link>
+        <Link href="/posts">Posts</Link>
       </nav>
     </header>
   );
